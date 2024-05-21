@@ -1,0 +1,139 @@
+#form input:focus {
+  outline: none;
+}
+
+.checkoutformat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkout {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid orange;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.checkout:hover {
+  width: 100%;
+  padding: 5px;
+  border: 3px solid #ff7f00;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: aliceblue;
+}
+
+.twobtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.btn3 {
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+  border: 1px solid orange;
+  padding: 10px 20px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: auto;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn3:hover {
+  color: white;
+  background-color: #ff7f00;
+  border: 2px dotted orange;
+}
+
+.btn4 {
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+  border: 1px solid orange;
+  padding: 10px 20px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: auto;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn4:hover {
+  color: white;
+  background-color: #ff7f00;
+  border: 2px dotted orange;
+}
+
+/* styles.css */
+
+/* .checkoutformat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.checkoutformat > div {
+  margin-bottom: 20px;
+}
+
+.checkoutformat form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkoutformat form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.checkoutformat form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.checkoutformat form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.checkoutformat form button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+} 
+
+.checkoutformat form button:hover {
+  background-color: #ff7f00;
+} */

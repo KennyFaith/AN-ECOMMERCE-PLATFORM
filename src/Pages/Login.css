@@ -1,0 +1,176 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row; /* or row, depending on your layout */
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 440px;
+  background: transparent;
+  border: 2px solid orange; /* corrected border syntax */
+  margin: auto; /*horizontally center the container */
+  margin-top: 5%;
+  padding: 30px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px black;
+}
+
+/* .container {
+  width: 100%;
+  padding: 40px;
+} */
+
+.container-form-login{
+  /* display: none;  */
+}
+
+.container-form-register{
+  position: absolute;
+  transform: translateX(400px);
+}
+
+.p {
+  font-size: 2em;
+  font-family: Arial;
+  color: orange;
+  text-align: center;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid orange;
+  margin: 30px 0;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1.1em;
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: -5px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  color: orange;
+  font-weight: 600;
+  padding: 0 35px 0 5px;
+}
+
+.r-f {
+  font-size: 0.9em;
+  color: orange;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.r-f label input {
+  accent-color: orange;
+  margin-right: 3px;
+}
+
+.r-f a {
+  color: orange;
+  text-decoration: none;
+}
+
+.r-f a:hover {
+  text-decoration: underline;
+  color: #ff7f00;
+}
+
+.btn {
+  width: 100%;
+  height: 45px;
+  background: orange;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.login-register {
+  font-size: 0.9em;
+  color: orange;
+  text-align: center;
+  font-weight: 500;
+  /* margin: 15px 10px 10px 10px;  */
+}
+
+.noA {
+  color: orange;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-link{
+  color: orange;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link:hover{
+  color: #ff7f00;
+  text-decoration: underline;
+}
+
+
+/* .input-box .icon { for the material ui icons
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: orange;
+    line-height: 57px;
+} */
+
+/* .container{
+    position: relative;
+    display: flexbox;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px  solid orange;
+    margin: auto auto;
+    margin-bottom: auto;
+    padding: 30px 30px 20px 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px black;
+} */
+
+/* .container {
+  display: flexbox;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 30px 250px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 30px 30px 20px 30px;
+} */
